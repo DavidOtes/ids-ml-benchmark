@@ -1,0 +1,9 @@
+2026-07-06 11:18:53,270 INFO nb03: START load clean.parquet
+2026-07-06 11:18:55,123 INFO nb03: END   load clean.parquet (1.9s)
+2026-07-06 11:18:57,409 INFO nb03: 2520798 rows, 77 features, 15 classes
+2026-07-06 11:19:01,023 INFO nb03: 70/30 split: 1764558 train / 756240 test (stratified, seed=42)
+2026-07-06 11:19:01,061 INFO nb03: START mutual information (subsample of 1764558 training rows)
+2026-07-06 11:19:04,200 INFO ids.features.subsample: stratified subsample: 1764558 -> 300017 rows (15 classes preserved)
+2026-07-06 11:19:05,426 INFO ids.features.mutual_info: mutual information on 300017 rows x 77 features
+2026-07-06 11:19:32,434 INFO nb03: END   mutual information (subsample of 1764558 training rows) (31.4s)
+2026-07-06 11:19:32,462 INFO nb03: top 40 by mutual information frozen

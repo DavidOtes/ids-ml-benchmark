@@ -1,0 +1,21 @@
+{
+  "total_nan": 1358,
+  "total_inf": 4376,
+  "features_with_nan": [
+    "flow_byts_s"
+  ],
+  "features_with_inf": [
+    "flow_byts_s",
+    "flow_pkts_s"
+  ],
+  "zero_variance_features": [
+    "bwd_psh_flags",
+    "bwd_urg_flags",
+    "fwd_byts_b_avg",
+    "fwd_pkts_b_avg",
+    "fwd_blk_rate_avg",
+    "bwd_byts_b_avg",
+    "bwd_pkts_b_avg",
+    "bwd_blk_rate_avg"
+  ]
+}

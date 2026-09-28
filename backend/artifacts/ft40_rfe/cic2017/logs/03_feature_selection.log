@@ -1,0 +1,9 @@
+2026-07-06 11:19:33,071 INFO nb03: START load clean.parquet
+2026-07-06 11:19:34,589 INFO nb03: END   load clean.parquet (1.5s)
+2026-07-06 11:19:35,653 INFO nb03: 2520798 rows, 77 features, 15 classes
+2026-07-06 11:19:37,592 INFO nb03: 70/30 split: 1764558 train / 756240 test (stratified, seed=42)
+2026-07-06 11:19:37,597 INFO nb03: START SVM-RFE (subsample of 1764558 training rows)
+2026-07-06 11:19:38,919 INFO ids.features.subsample: stratified subsample: 1764558 -> 300017 rows (15 classes preserved)
+2026-07-06 11:19:39,655 INFO ids.features.rfe: SVM-RFE on 300017 rows x 77 features (step=5, target=40)
+2026-07-06 11:21:36,435 INFO nb03: END   SVM-RFE (subsample of 1764558 training rows) (118.8s)
+2026-07-06 11:21:36,466 INFO nb03: top 40 by SVM-RFE frozen

@@ -1,0 +1,19 @@
+{
+  "dataset": "cic2018",
+  "scheme": "80_20",
+  "model": "knn",
+  "n_train": 1269521,
+  "n_test": 317381,
+  "target_per_class": 50000,
+  "fit_seconds": 3.867,
+  "test": {
+    "name": "knn",
+    "accuracy": 0.7204495543211471,
+    "precision_macro": 0.6073410389001564,
+    "recall_macro": 0.804778752594457,
+    "f1_macro": 0.6333826916257046,
+    "roc_auc": 0.9269305239104182,
+    "detection_time_ms": 0.5074569916003384,
+    "n_test": 317381
+  }
+}

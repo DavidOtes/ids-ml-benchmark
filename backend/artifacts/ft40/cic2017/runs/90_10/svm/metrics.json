@@ -1,0 +1,19 @@
+{
+  "dataset": "cic2017",
+  "scheme": "90_10",
+  "model": "svm",
+  "n_train": 2268718,
+  "n_test": 252080,
+  "target_per_class": 50000,
+  "fit_seconds": 10.046,
+  "test": {
+    "name": "svm",
+    "accuracy": 0.6985718819422405,
+    "precision_macro": 0.2879358245145641,
+    "recall_macro": 0.8219270710243746,
+    "f1_macro": 0.3197932460755569,
+    "roc_auc": 0.9732220234119985,
+    "detection_time_ms": 0.0009010959067381919,
+    "n_test": 252080
+  }
+}

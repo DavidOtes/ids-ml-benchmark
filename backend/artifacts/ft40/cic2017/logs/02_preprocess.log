@@ -1,0 +1,37 @@
+2026-07-06 01:40:41,443 INFO nb02: START load raw_unified.parquet
+2026-07-06 01:40:43,017 INFO nb02: END   load raw_unified.parquet (1.6s)
+2026-07-06 01:40:43,019 INFO nb02: input: 2830743 rows x 78 cols
+2026-07-06 01:40:43,042 INFO nb02: START clean (inf->NaN, drop NaN rows, drop duplicates)
+2026-07-06 01:41:02,140 INFO ids.preprocess.cleaning: cleaning stats: {'input_rows': 2830743, 'replaced_inf': 4376, 'dropped_nan': 2867, 'dropped_duplicates': 307078, 'output_rows': 2520798}
+2026-07-06 01:41:03,460 INFO nb02: END   clean (inf->NaN, drop NaN rows, drop duplicates) (20.4s)
+2026-07-06 01:41:03,461 INFO nb02: cleaning: {'input_rows': 2830743, 'replaced_inf': 4376, 'dropped_nan': 2867, 'dropped_duplicates': 307078, 'output_rows': 2520798, 'pct_rows_dropped': 10.949}
+2026-07-06 01:41:03,710 INFO nb02: 15 classes encoded: ['Benign', 'Bot', 'DDoS', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest', 'DoS slowloris', 'FTP-Patator', '...']
+2026-07-06 01:41:08,039 INFO nb02: saved clean.parquet: 2520798 rows x 77 features (+y) | 15 classes
+2026-07-06 07:48:12,403 INFO nb02: START load raw_unified.parquet
+2026-07-06 07:48:13,028 INFO nb02: END   load raw_unified.parquet (0.6s)
+2026-07-06 07:48:13,029 INFO nb02: input: 2830743 rows x 78 cols
+2026-07-06 07:48:13,037 INFO nb02: START clean (inf->NaN, drop NaN rows, drop duplicates)
+2026-07-06 07:48:30,519 INFO ids.preprocess.cleaning: cleaning stats: {'input_rows': 2830743, 'replaced_inf': 4376, 'dropped_nan': 2867, 'dropped_duplicates': 307078, 'output_rows': 2520798}
+2026-07-06 07:48:31,853 INFO nb02: END   clean (inf->NaN, drop NaN rows, drop duplicates) (18.8s)
+2026-07-06 07:48:31,856 INFO nb02: cleaning: {'input_rows': 2830743, 'replaced_inf': 4376, 'dropped_nan': 2867, 'dropped_duplicates': 307078, 'output_rows': 2520798, 'pct_rows_dropped': 10.949}
+2026-07-06 07:48:32,109 INFO nb02: 15 classes encoded: ['Benign', 'Bot', 'DDoS', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest', 'DoS slowloris', 'FTP-Patator', '...']
+2026-07-06 07:48:36,471 INFO nb02: saved clean.parquet: 2520798 rows x 77 features (+y) | 15 classes
+2026-07-06 10:31:41,669 INFO nb02: START load raw_unified.parquet
+2026-07-06 10:31:43,087 INFO nb02: END   load raw_unified.parquet (1.4s)
+2026-07-06 10:31:43,088 INFO nb02: input: 2830743 rows x 78 cols
+2026-07-06 10:31:43,100 INFO nb02: START clean (inf->NaN, drop NaN rows, drop duplicates)
+2026-07-06 10:32:02,398 INFO ids.preprocess.cleaning: cleaning stats: {'input_rows': 2830743, 'replaced_inf': 4376, 'dropped_nan': 2867, 'dropped_duplicates': 307078, 'output_rows': 2520798}
+2026-07-06 10:32:03,792 INFO nb02: END   clean (inf->NaN, drop NaN rows, drop duplicates) (20.7s)
+2026-07-06 10:32:03,794 INFO nb02: cleaning: {'input_rows': 2830743, 'replaced_inf': 4376, 'dropped_nan': 2867, 'dropped_duplicates': 307078, 'output_rows': 2520798, 'pct_rows_dropped': 10.949}
+2026-07-06 10:32:04,049 INFO nb02: 15 classes encoded: ['Benign', 'Bot', 'DDoS', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest', 'DoS slowloris', 'FTP-Patator', '...']
+2026-07-06 10:32:08,274 INFO nb02: saved clean.parquet: 2520798 rows x 77 features (+y) | 15 classes
+2026-07-06 11:09:13,051 INFO nb02: START load raw_unified.parquet
+2026-07-06 11:09:14,644 INFO nb02: END   load raw_unified.parquet (1.6s)
+2026-07-06 11:09:14,652 INFO nb02: input: 2830743 rows x 78 cols
+2026-07-06 11:09:14,665 INFO nb02: START clean (inf->NaN, drop NaN rows, drop duplicates)
+2026-07-06 11:09:31,697 INFO ids.preprocess.cleaning: cleaning stats: {'input_rows': 2830743, 'replaced_inf': 4376, 'dropped_nan': 2867, 'dropped_duplicates': 307078, 'output_rows': 2520798}
+2026-07-06 11:09:32,752 INFO nb02: END   clean (inf->NaN, drop NaN rows, drop duplicates) (18.1s)
+2026-07-06 11:09:32,755 INFO nb02: cleaning: {'input_rows': 2830743, 'replaced_inf': 4376, 'dropped_nan': 2867, 'dropped_duplicates': 307078, 'output_rows': 2520798, 'pct_rows_dropped': 10.949}
+2026-07-06 11:09:32,774 INFO nb02: saved clean_head_tail_preview.csv (20 rows)
+2026-07-06 11:09:33,045 INFO nb02: 15 classes encoded: ['Benign', 'Bot', 'DDoS', 'DoS GoldenEye', 'DoS Hulk', 'DoS Slowhttptest', 'DoS slowloris', 'FTP-Patator', '...']
+2026-07-06 11:09:37,274 INFO nb02: saved clean.parquet: 2520798 rows x 77 features (+y) | 15 classes

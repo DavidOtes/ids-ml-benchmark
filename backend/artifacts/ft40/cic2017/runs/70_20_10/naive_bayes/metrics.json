@@ -1,0 +1,30 @@
+{
+  "dataset": "cic2017",
+  "scheme": "70_20_10",
+  "model": "naive_bayes",
+  "n_train": 1764558,
+  "n_test": 252080,
+  "target_per_class": 50000,
+  "fit_seconds": 2.304,
+  "n_val": 504160,
+  "test": {
+    "name": "naive_bayes",
+    "accuracy": 0.33936845445890196,
+    "precision_macro": 0.31495451408256225,
+    "recall_macro": 0.6517372255754533,
+    "f1_macro": 0.294363708782217,
+    "roc_auc": 0.9495542192441322,
+    "detection_time_ms": 0.0011667291983030736,
+    "n_test": 252080
+  },
+  "validation": {
+    "name": "naive_bayes",
+    "accuracy": 0.33998333862265945,
+    "precision_macro": 0.3807497224701946,
+    "recall_macro": 0.6864740966721535,
+    "f1_macro": 0.35997276478569334,
+    "roc_auc": 0.9491780424407026,
+    "detection_time_ms": 0.0006716958014294505,
+    "n_test": 504160
+  }
+}

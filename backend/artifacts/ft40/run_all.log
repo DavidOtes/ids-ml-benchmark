@@ -1,0 +1,55 @@
+[2026-07-06T06:47:44Z] START cic2017 01_load_and_eda
+Input Notebook:  /Users/MAC/Projects/IDS/backend/notebooks/cic2017/01_load_and_eda.ipynb
+Output Notebook: /Users/MAC/Projects/IDS/backend/notebooks/cic2017/01_load_and_eda.ipynb
+Working directory: /Users/MAC/Projects/IDS/backend/notebooks/cic2017
+Executing:   0%|          | 0/16 [00:00<?, ?cell/s]Executing notebook with kernel: ids
+Executing:   6%|▋         | 1/16 [00:00<00:13,  1.08cell/s]Executing:  19%|█▉        | 3/16 [00:01<00:06,  1.99cell/s]Executing:  31%|███▏      | 5/16 [00:02<00:06,  1.69cell/s]Executing:  44%|████▍     | 7/16 [00:10<00:17,  1.90s/cell]Executing:  56%|█████▋    | 9/16 [00:10<00:08,  1.25s/cell]Executing:  69%|██████▉   | 11/16 [00:14<00:07,  1.48s/cell]Executing:  81%|████████▏ | 13/16 [00:17<00:04,  1.56s/cell]Executing:  94%|█████████▍| 15/16 [00:20<00:01,  1.50s/cell]Executing: 100%|██████████| 16/16 [00:21<00:00,  1.32s/cell]
+[NbConvertApp] Converting notebook /Users/MAC/Projects/IDS/backend/notebooks/cic2017/01_load_and_eda.ipynb to html
+[NbConvertApp] WARNING | Alternative text is missing on 2 image(s).
+[NbConvertApp] Writing 508620 bytes to /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2017/report_html/01_load_and_eda.html
+[2026-07-06T06:48:09Z] END   cic2017 01_load_and_eda
+[2026-07-06T06:48:09Z] START cic2017 02_preprocess
+Input Notebook:  /Users/MAC/Projects/IDS/backend/notebooks/cic2017/02_preprocess.ipynb
+Output Notebook: /Users/MAC/Projects/IDS/backend/notebooks/cic2017/02_preprocess.ipynb
+Working directory: /Users/MAC/Projects/IDS/backend/notebooks/cic2017
+Executing:   0%|          | 0/9 [00:00<?, ?cell/s]Executing notebook with kernel: ids
+Executing:  11%|█         | 1/9 [00:00<00:07,  1.12cell/s]Executing:  33%|███▎      | 3/9 [00:02<00:05,  1.20cell/s]Executing:  56%|█████▌    | 5/9 [00:21<00:20,  5.25s/cell]Executing:  78%|███████▊  | 7/9 [00:21<00:06,  3.08s/cell]Executing: 100%|██████████| 9/9 [00:25<00:00,  2.74s/cell]Executing: 100%|██████████| 9/9 [00:26<00:00,  2.93s/cell]
+[NbConvertApp] Converting notebook /Users/MAC/Projects/IDS/backend/notebooks/cic2017/02_preprocess.ipynb to html
+[NbConvertApp] Writing 301014 bytes to /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2017/report_html/02_preprocess.html
+[2026-07-06T06:48:38Z] END   cic2017 02_preprocess
+[2026-07-06T06:48:38Z] START cic2017 03_feature_selection
+Input Notebook:  /Users/MAC/Projects/IDS/backend/notebooks/cic2017/03_feature_selection.ipynb
+Output Notebook: /Users/MAC/Projects/IDS/backend/notebooks/cic2017/03_feature_selection.ipynb
+Working directory: /Users/MAC/Projects/IDS/backend/notebooks/cic2017
+Executing:   0%|          | 0/9 [00:00<?, ?cell/s]Executing notebook with kernel: ids
+Executing:  11%|█         | 1/9 [00:00<00:07,  1.12cell/s]Executing:  33%|███▎      | 3/9 [00:03<00:06,  1.02s/cell]Executing:  56%|█████▌    | 5/9 [00:04<00:03,  1.06cell/s]Executing:  78%|███████▊  | 7/9 [02:39<01:06, 33.21s/cell]Executing: 100%|██████████| 9/9 [02:39<00:00, 20.76s/cell]Executing: 100%|██████████| 9/9 [02:42<00:00, 18.01s/cell]
+[NbConvertApp] Converting notebook /Users/MAC/Projects/IDS/backend/notebooks/cic2017/03_feature_selection.ipynb to html
+[NbConvertApp] WARNING | Alternative text is missing on 1 image(s).
+[NbConvertApp] Writing 393626 bytes to /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2017/report_html/03_feature_selection.html
+[2026-07-06T06:51:24Z] END   cic2017 03_feature_selection
+[2026-07-06T06:51:24Z] START cic2017 04_experiments
+Input Notebook:  /Users/MAC/Projects/IDS/backend/notebooks/cic2017/04_experiments.ipynb
+Output Notebook: /Users/MAC/Projects/IDS/backend/notebooks/cic2017/04_experiments.ipynb
+Working directory: /Users/MAC/Projects/IDS/backend/notebooks/cic2017
+Executing:   0%|          | 0/10 [00:00<?, ?cell/s]Executing notebook with kernel: ids
+Executing:  10%|█         | 1/10 [00:00<00:07,  1.15cell/s]Executing:  30%|███       | 3/10 [00:04<00:10,  1.56s/cell]Executing:  50%|█████     | 5/10 [00:11<00:13,  2.62s/cell]Executing: 100%|██████████| 10/10 [00:12<00:00,  1.23s/cell]
+[NbConvertApp] Converting notebook /Users/MAC/Projects/IDS/backend/notebooks/cic2017/04_experiments.ipynb to html
+[NbConvertApp] Writing 338032 bytes to /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2017/report_html/04_experiments.html
+[2026-07-06T06:51:39Z] END   cic2017 04_experiments
+[2026-07-06T06:51:39Z] START cic2017 05_results
+Input Notebook:  /Users/MAC/Projects/IDS/backend/notebooks/cic2017/05_results.ipynb
+Output Notebook: /Users/MAC/Projects/IDS/backend/notebooks/cic2017/05_results.ipynb
+Working directory: /Users/MAC/Projects/IDS/backend/notebooks/cic2017
+Executing:   0%|          | 0/12 [00:00<?, ?cell/s]Executing notebook with kernel: ids
+Executing:   8%|▊         | 1/12 [00:00<00:09,  1.14cell/s]Executing:  25%|██▌       | 3/12 [00:02<00:07,  1.15cell/s]Executing:  50%|█████     | 6/12 [00:03<00:02,  2.30cell/s]Executing: 100%|██████████| 12/12 [00:03<00:00,  3.45cell/s]
+[NbConvertApp] Converting notebook /Users/MAC/Projects/IDS/backend/notebooks/cic2017/05_results.ipynb to html
+[NbConvertApp] WARNING | Alternative text is missing on 5 image(s).
+[NbConvertApp] Writing 400597 bytes to /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2017/report_html/05_results.html
+[2026-07-06T06:51:46Z] END   cic2017 05_results
+[2026-07-06T06:51:46Z] START cic2018 01_load_and_eda
+Input Notebook:  /Users/MAC/Projects/IDS/backend/notebooks/cic2018/01_load_and_eda.ipynb
+Output Notebook: /Users/MAC/Projects/IDS/backend/notebooks/cic2018/01_load_and_eda.ipynb
+Working directory: /Users/MAC/Projects/IDS/backend/notebooks/cic2018
+Executing:   0%|          | 0/16 [00:00<?, ?cell/s]Executing notebook with kernel: ids
+Executing:   6%|▋         | 1/16 [00:00<00:13,  1.11cell/s]Executing:  19%|█▉        | 3/16 [00:01<00:06,  2.07cell/s]/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

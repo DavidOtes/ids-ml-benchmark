@@ -1,0 +1,19 @@
+{
+  "dataset": "cic2018",
+  "scheme": "80_20",
+  "model": "naive_bayes",
+  "n_train": 1269521,
+  "n_test": 317381,
+  "target_per_class": 50000,
+  "fit_seconds": 4.173,
+  "test": {
+    "name": "naive_bayes",
+    "accuracy": 0.4108090906512992,
+    "precision_macro": 0.3470315652951533,
+    "recall_macro": 0.6323371878761497,
+    "f1_macro": 0.3568740288976065,
+    "roc_auc": 0.8229531341672148,
+    "detection_time_ms": 0.0006563458009622991,
+    "n_test": 317381
+  }
+}

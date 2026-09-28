@@ -1,0 +1,19 @@
+2026-07-06 09:11:50,089 INFO nb02: START load raw_unified.parquet
+2026-07-06 09:11:51,125 INFO nb02: END   load raw_unified.parquet (1.0s)
+2026-07-06 09:11:51,126 INFO nb02: input: 1999987 rows x 78 cols
+2026-07-06 09:11:51,132 INFO nb02: START clean (inf->NaN, drop NaN rows, drop duplicates)
+2026-07-06 09:12:03,190 INFO ids.preprocess.cleaning: cleaning stats: {'input_rows': 1999987, 'replaced_inf': 14266, 'dropped_nan': 10408, 'dropped_duplicates': 402677, 'output_rows': 1586902}
+2026-07-06 09:12:03,775 INFO nb02: END   clean (inf->NaN, drop NaN rows, drop duplicates) (12.6s)
+2026-07-06 09:12:03,776 INFO nb02: cleaning: {'input_rows': 1999987, 'replaced_inf': 14266, 'dropped_nan': 10408, 'dropped_duplicates': 402677, 'output_rows': 1586902, 'pct_rows_dropped': 20.654}
+2026-07-06 09:12:03,933 INFO nb02: 15 classes encoded: ['Benign', 'Bot', 'Brute Force -Web', 'Brute Force -XSS', 'DDOS attack-HOIC', 'DDOS attack-LOIC-UDP', 'DDoS attacks-LOIC-HTTP', 'DoS attacks-GoldenEye', '...']
+2026-07-06 09:12:06,691 INFO nb02: saved clean.parquet: 1586902 rows x 77 features (+y) | 15 classes
+2026-07-07 05:35:22,345 INFO nb02: START load raw_unified.parquet
+2026-07-07 05:35:23,028 INFO nb02: END   load raw_unified.parquet (0.7s)
+2026-07-07 05:35:23,029 INFO nb02: input: 1999987 rows x 78 cols
+2026-07-07 05:35:23,046 INFO nb02: START clean (inf->NaN, drop NaN rows, drop duplicates)
+2026-07-07 05:35:35,336 INFO ids.preprocess.cleaning: cleaning stats: {'input_rows': 1999987, 'replaced_inf': 14266, 'dropped_nan': 10408, 'dropped_duplicates': 402677, 'output_rows': 1586902}
+2026-07-07 05:35:36,051 INFO nb02: END   clean (inf->NaN, drop NaN rows, drop duplicates) (13.0s)
+2026-07-07 05:35:36,054 INFO nb02: cleaning: {'input_rows': 1999987, 'replaced_inf': 14266, 'dropped_nan': 10408, 'dropped_duplicates': 402677, 'output_rows': 1586902, 'pct_rows_dropped': 20.654}
+2026-07-07 05:35:36,078 INFO nb02: saved clean_head_tail_preview.csv (20 rows)
+2026-07-07 05:35:36,404 INFO nb02: 15 classes encoded: ['Benign', 'Bot', 'Brute Force -Web', 'Brute Force -XSS', 'DDOS attack-HOIC', 'DDOS attack-LOIC-UDP', 'DDoS attacks-LOIC-HTTP', 'DoS attacks-GoldenEye', '...']
+2026-07-07 05:35:40,436 INFO nb02: saved clean.parquet: 1586902 rows x 77 features (+y) | 15 classes

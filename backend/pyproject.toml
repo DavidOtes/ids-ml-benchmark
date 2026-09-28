@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ids"
+version = "0.1.0"
+description = "Comparative Performance Analysis of ML Algorithms for Network Intrusion Detection"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "scikit-learn==1.5.2",
+  "pandas==2.2.3",
+  "numpy==1.26.4",
+  "scipy==1.14.1",
+  "imbalanced-learn==0.12.4",
+  "joblib==1.4.2",
+  "pyarrow==17.0.0",
+  "matplotlib==3.9.2",
+  "python-dotenv==1.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.3.3",
+  "ruff==0.6.9",
+  "black==24.10.0",
+  "ipykernel==6.29.5",
+]
+
+[tool.setuptools.packages.find]
+include = ["ids*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]

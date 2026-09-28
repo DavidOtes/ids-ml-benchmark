@@ -1,0 +1,30 @@
+{
+  "dataset": "cic2018",
+  "scheme": "70_20_10",
+  "model": "decision_tree",
+  "n_train": 1110830,
+  "n_test": 158691,
+  "target_per_class": 50000,
+  "fit_seconds": 18.622,
+  "n_val": 317381,
+  "test": {
+    "name": "decision_tree",
+    "accuracy": 0.7304447007076645,
+    "precision_macro": 0.6476580477014937,
+    "recall_macro": 0.7694393732237924,
+    "f1_macro": 0.6671475404467281,
+    "roc_auc": 0.9181318172879559,
+    "detection_time_ms": 0.0002739249961450696,
+    "n_test": 158691
+  },
+  "validation": {
+    "name": "decision_tree",
+    "accuracy": 0.7311811356067314,
+    "precision_macro": 0.645165502763256,
+    "recall_macro": 0.7617216044073588,
+    "f1_macro": 0.6643798092507359,
+    "roc_auc": 0.9189340178900183,
+    "detection_time_ms": 0.0002528958022594452,
+    "n_test": 317381
+  }
+}

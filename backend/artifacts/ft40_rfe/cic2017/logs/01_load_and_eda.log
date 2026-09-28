@@ -1,0 +1,10 @@
+2026-07-06 11:17:04,422 INFO nb01: dataset=cic2017 | random_state=42 | artifacts -> /Users/MAC/Projects/IDS/backend/artifacts/ft40_rfe/cic2017
+2026-07-06 11:17:04,423 INFO nb01: base study import found — reusing /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2017/data/raw_unified.parquet
+2026-07-06 11:17:04,435 INFO nb01: START load pre-built unified parquet /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2017/data/raw_unified.parquet
+2026-07-06 11:17:06,065 INFO nb01: END   load pre-built unified parquet /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2017/data/raw_unified.parquet (1.6s)
+2026-07-06 11:17:13,155 INFO nb01: saved /Users/MAC/Projects/IDS/backend/artifacts/ft40_rfe/cic2017/data/raw_unified.parquet (2830743 rows x 78 cols)
+2026-07-06 11:17:29,863 INFO nb01: overview: {'dataset': 'cic2017', 'rows': 2830743, 'n_features': 77, 'columns': 78, 'memory_mb': 1923.0, 'dtype_counts': {'int64': 53, 'float64': 24, 'object': 1}, 'n_duplicate_rows': 308381}
+2026-07-06 11:17:29,988 INFO nb01: 15 classes; imbalance ratio max/min = 206645
+2026-07-06 11:17:40,869 INFO nb01: NaN cells=1358 | inf cells=4376 | zero-variance features=['bwd_psh_flags', 'bwd_urg_flags', 'fwd_byts_b_avg', 'fwd_pkts_b_avg', 'fwd_blk_rate_avg', 'bwd_byts_b_avg', 'bwd_pkts_b_avg', 'bwd_blk_rate_avg']
+2026-07-06 11:17:45,881 INFO nb01: saved describe.csv (77 features)
+2026-07-06 11:17:45,897 INFO nb01: notebook 01 complete — artifacts in /Users/MAC/Projects/IDS/backend/artifacts/ft40_rfe/cic2017/eda

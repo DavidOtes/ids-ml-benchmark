@@ -1,0 +1,13 @@
+{
+  "dataset": "cic2017",
+  "rows": 2830743,
+  "n_features": 77,
+  "columns": 78,
+  "memory_mb": 1923.0,
+  "dtype_counts": {
+    "int64": 53,
+    "float64": 24,
+    "object": 1
+  },
+  "n_duplicate_rows": 308381
+}

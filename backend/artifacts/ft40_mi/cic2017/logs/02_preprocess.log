@@ -1,0 +1,9 @@
+2026-07-06 11:17:49,345 INFO nb02: START load raw_unified.parquet
+2026-07-06 11:17:50,723 INFO nb02: END   load raw_unified.parquet (1.4s)
+2026-07-06 11:17:50,725 INFO nb02: input: 2830743 rows x 78 cols
+2026-07-06 11:17:50,737 INFO nb02: START clean (inf->NaN, drop NaN rows, drop duplicates)
+2026-07-06 11:18:22,651 INFO ids.preprocess.cleaning: cleaning stats: {'input_rows': 2830743, 'replaced_inf': 4376, 'dropped_nan': 2867, 'dropped_duplicates': 307078, 'output_rows': 2520798}
+2026-07-06 11:18:28,592 INFO nb02: END   clean (inf->NaN, drop NaN rows, drop duplicates) (37.8s)
+2026-07-06 11:18:28,669 INFO nb02: cleaning: {'input_rows': 2830743, 'replaced_inf': 4376, 'dropped_nan': 2867, 'dropped_duplicates': 307078, 'output_rows': 2520798, 'pct_rows_dropped': 10.949}
+2026-07-06 11:18:28,762 INFO nb02: saved clean_head_tail_preview.csv (20 rows)
+2026-07-06 11:18:44,096 INFO nb02: saved clean.parquet: 2520798 rows x 77 features (+y) | 15 classes

@@ -1,0 +1,19 @@
+{
+  "dataset": "cic2017",
+  "scheme": "90_10",
+  "model": "random_forest",
+  "n_train": 2268718,
+  "n_test": 252080,
+  "target_per_class": 50000,
+  "fit_seconds": 31.905,
+  "test": {
+    "name": "random_forest",
+    "accuracy": 0.9952991113932085,
+    "precision_macro": 0.8372587424476641,
+    "recall_macro": 0.9183571983038641,
+    "f1_macro": 0.8569076985353514,
+    "roc_auc": 0.999832218227846,
+    "detection_time_ms": 0.003634949994739145,
+    "n_test": 252080
+  }
+}

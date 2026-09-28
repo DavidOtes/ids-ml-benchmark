@@ -1,0 +1,30 @@
+{
+  "dataset": "cic2018",
+  "scheme": "70_20_10",
+  "model": "random_forest",
+  "n_train": 1110830,
+  "n_test": 158691,
+  "target_per_class": 50000,
+  "fit_seconds": 35.845,
+  "n_val": 317381,
+  "test": {
+    "name": "random_forest",
+    "accuracy": 0.7597532311221178,
+    "precision_macro": 0.6454218403169256,
+    "recall_macro": 0.8152130347780413,
+    "f1_macro": 0.6669566524288851,
+    "roc_auc": 0.9525515796944355,
+    "detection_time_ms": 0.005722820898517967,
+    "n_test": 158691
+  },
+  "validation": {
+    "name": "random_forest",
+    "accuracy": 0.7590246423068804,
+    "precision_macro": 0.6748633915511629,
+    "recall_macro": 0.862109348489257,
+    "f1_macro": 0.7033134127738403,
+    "roc_auc": 0.9521518606122586,
+    "detection_time_ms": 0.007423595804721117,
+    "n_test": 317381
+  }
+}

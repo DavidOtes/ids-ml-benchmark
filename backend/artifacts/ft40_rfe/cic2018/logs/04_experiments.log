@@ -1,0 +1,88 @@
+2026-07-06 20:27:54,134 INFO nb04: 1586902 rows | 40 selected features | 15 classes | models=['decision_tree', 'random_forest', 'svm', 'naive_bayes', 'knn'] | target_per_class=50000
+2026-07-06 20:27:56,090 INFO nb04: 70_30: train=1110831 / test=476071
+2026-07-06 20:27:57,021 INFO nb04: 80_20: train=1269521 / test=317381
+2026-07-06 20:27:57,943 INFO nb04: 90_10: train=1428211 / test=158691
+2026-07-06 20:27:58,809 INFO nb04: 70_20_10: train=1110830 / val=317381 / test=158691
+2026-07-06 20:27:58,820 INFO nb04: START all holdout schemes
+2026-07-06 20:27:58,821 INFO nb04: START scheme 70_30
+2026-07-06 20:28:14,112 INFO nb04: 70_30/decision_tree: fit on 1110831 rows in 15.3s
+2026-07-06 20:28:16,160 INFO nb04: 70_30/decision_tree [test]: acc=0.7310 f1_macro=0.7032 roc_auc=0.9205 det=0.000ms
+2026-07-06 20:28:50,666 INFO nb04: 70_30/random_forest: fit on 1110831 rows in 34.5s
+2026-07-06 20:28:59,599 INFO nb04: 70_30/random_forest [test]: acc=0.7592 f1_macro=0.7042 roc_auc=0.9525 det=0.006ms
+2026-07-06 20:29:12,128 INFO nb04: 70_30/svm: fit on 1110831 rows in 12.5s
+2026-07-06 20:29:16,114 INFO nb04: 70_30/svm [test]: acc=0.6158 f1_macro=0.5468 roc_auc=0.9045 det=0.001ms
+2026-07-06 20:29:21,530 INFO nb04: 70_30/naive_bayes: fit on 1110831 rows in 5.4s
+2026-07-06 20:29:25,067 INFO nb04: 70_30/naive_bayes [test]: acc=0.4584 f1_macro=0.4665 roc_auc=0.8605 det=0.001ms
+2026-07-06 20:29:30,256 INFO nb04: 70_30/knn: fit on 1110831 rows in 5.2s
+2026-07-06 20:41:53,424 INFO nb04: 70_30/knn [test]: acc=0.7377 f1_macro=0.7011 roc_auc=0.9334 det=0.538ms
+2026-07-06 20:41:53,425 INFO nb04: END   scheme 70_30 (834.6s)
+2026-07-06 20:41:53,426 INFO nb04: START scheme 80_20
+2026-07-06 20:42:08,368 INFO nb04: 80_20/decision_tree: fit on 1269521 rows in 14.9s
+2026-07-06 20:42:09,636 INFO nb04: 80_20/decision_tree [test]: acc=0.7355 f1_macro=0.7090 roc_auc=0.9211 det=0.000ms
+2026-07-06 20:42:44,862 INFO nb04: 80_20/random_forest: fit on 1269521 rows in 35.2s
+2026-07-06 20:42:51,060 INFO nb04: 80_20/random_forest [test]: acc=0.7582 f1_macro=0.6782 roc_auc=0.9527 det=0.006ms
+2026-07-06 20:43:01,530 INFO nb04: 80_20/svm: fit on 1269521 rows in 10.5s
+2026-07-06 20:43:04,025 INFO nb04: 80_20/svm [test]: acc=0.6158 f1_macro=0.5145 roc_auc=0.9045 det=0.002ms
+2026-07-06 20:43:08,575 INFO nb04: 80_20/naive_bayes: fit on 1269521 rows in 4.5s
+2026-07-06 20:43:10,889 INFO nb04: 80_20/naive_bayes [test]: acc=0.5480 f1_macro=0.4684 roc_auc=0.8665 det=0.001ms
+2026-07-06 20:43:15,132 INFO nb04: 80_20/knn: fit on 1269521 rows in 4.2s
+2026-07-06 20:51:42,320 INFO nb04: 80_20/knn [test]: acc=0.7398 f1_macro=0.6964 roc_auc=0.9336 det=0.542ms
+2026-07-06 20:51:42,321 INFO nb04: END   scheme 80_20 (588.9s)
+2026-07-06 20:51:42,321 INFO nb04: START scheme 90_10
+2026-07-06 20:51:55,932 INFO nb04: 90_10/decision_tree: fit on 1428211 rows in 13.6s
+2026-07-06 20:51:56,746 INFO nb04: 90_10/decision_tree [test]: acc=0.7343 f1_macro=0.6971 roc_auc=0.9223 det=0.000ms
+2026-07-06 20:52:31,097 INFO nb04: 90_10/random_forest: fit on 1428211 rows in 34.3s
+2026-07-06 20:52:34,361 INFO nb04: 90_10/random_forest [test]: acc=0.7591 f1_macro=0.6727 roc_auc=0.9531 det=0.005ms
+2026-07-06 20:52:43,338 INFO nb04: 90_10/svm: fit on 1428211 rows in 9.0s
+2026-07-06 20:52:44,752 INFO nb04: 90_10/svm [test]: acc=0.6122 f1_macro=0.5308 roc_auc=0.9057 det=0.001ms
+2026-07-06 20:52:48,158 INFO nb04: 90_10/naive_bayes: fit on 1428211 rows in 3.4s
+2026-07-06 20:52:49,412 INFO nb04: 90_10/naive_bayes [test]: acc=0.2335 f1_macro=0.4275 roc_auc=0.8629 det=0.001ms
+2026-07-06 20:52:52,512 INFO nb04: 90_10/knn: fit on 1428211 rows in 3.1s
+2026-07-06 20:57:02,552 INFO nb04: 90_10/knn [test]: acc=0.7404 f1_macro=0.6720 roc_auc=0.9339 det=0.522ms
+2026-07-06 20:57:02,553 INFO nb04: END   scheme 90_10 (320.2s)
+2026-07-06 20:57:02,553 INFO nb04: START scheme 70_20_10
+2026-07-06 20:57:17,510 INFO nb04: 70_20_10/decision_tree: fit on 1110830 rows in 15.0s
+2026-07-06 20:57:18,182 INFO nb04: 70_20_10/decision_tree [test]: acc=0.7359 f1_macro=0.6718 roc_auc=0.9202 det=0.000ms
+2026-07-06 20:57:19,356 INFO nb04: 70_20_10/decision_tree [validation]: acc=0.7356 f1_macro=0.6839 roc_auc=0.9208 det=0.000ms
+2026-07-06 20:57:55,201 INFO nb04: 70_20_10/random_forest: fit on 1110830 rows in 35.8s
+2026-07-06 20:57:58,532 INFO nb04: 70_20_10/random_forest [test]: acc=0.7598 f1_macro=0.6670 roc_auc=0.9526 det=0.006ms
+2026-07-06 20:58:04,205 INFO nb04: 70_20_10/random_forest [validation]: acc=0.7590 f1_macro=0.7033 roc_auc=0.9522 det=0.007ms
+2026-07-06 20:58:14,726 INFO nb04: 70_20_10/svm: fit on 1110830 rows in 10.5s
+2026-07-06 20:58:16,122 INFO nb04: 70_20_10/svm [test]: acc=0.6132 f1_macro=0.5171 roc_auc=0.9064 det=0.001ms
+2026-07-06 20:58:18,644 INFO nb04: 70_20_10/svm [validation]: acc=0.6138 f1_macro=0.5234 roc_auc=0.9077 det=0.001ms
+2026-07-06 20:58:23,620 INFO nb04: 70_20_10/naive_bayes: fit on 1110830 rows in 5.0s
+2026-07-06 20:58:24,737 INFO nb04: 70_20_10/naive_bayes [test]: acc=0.7542 f1_macro=0.4717 roc_auc=0.8632 det=0.001ms
+2026-07-06 20:58:26,811 INFO nb04: 70_20_10/naive_bayes [validation]: acc=0.7552 f1_macro=0.4683 roc_auc=0.8629 det=0.001ms
+2026-07-06 20:58:31,729 INFO nb04: 70_20_10/knn: fit on 1110830 rows in 4.9s
+2026-07-06 21:02:41,503 INFO nb04: 70_20_10/knn [test]: acc=0.7413 f1_macro=0.6697 roc_auc=0.9339 det=0.525ms
+2026-07-06 21:10:45,588 INFO nb04: 70_20_10/knn [validation]: acc=0.7389 f1_macro=0.6837 roc_auc=0.9335 det=0.510ms
+2026-07-06 21:10:45,590 INFO nb04: END   scheme 70_20_10 (823.0s)
+2026-07-06 21:10:45,590 INFO nb04: END   all holdout schemes (2566.8s)
+2026-07-06 21:10:45,615 INFO nb04: START 5-fold stratified CV, all models
+2026-07-06 21:10:59,392 INFO ids.evaluation.cross_val: CV decision_tree fold 1/5: f1_macro=0.6828 acc=0.7219 (12.7s)
+2026-07-06 21:11:12,061 INFO ids.evaluation.cross_val: CV decision_tree fold 2/5: f1_macro=0.7042 acc=0.7172 (11.9s)
+2026-07-06 21:11:25,377 INFO ids.evaluation.cross_val: CV decision_tree fold 3/5: f1_macro=0.6793 acc=0.7293 (12.4s)
+2026-07-06 21:11:38,519 INFO ids.evaluation.cross_val: CV decision_tree fold 4/5: f1_macro=0.6875 acc=0.7277 (12.4s)
+2026-07-06 21:11:51,801 INFO ids.evaluation.cross_val: CV decision_tree fold 5/5: f1_macro=0.6961 acc=0.7318 (12.5s)
+2026-07-06 21:12:24,935 INFO ids.evaluation.cross_val: CV random_forest fold 1/5: f1_macro=0.6586 acc=0.7432 (30.1s)
+2026-07-06 21:12:57,768 INFO ids.evaluation.cross_val: CV random_forest fold 2/5: f1_macro=0.6664 acc=0.7451 (29.6s)
+2026-07-06 21:13:31,255 INFO ids.evaluation.cross_val: CV random_forest fold 3/5: f1_macro=0.6561 acc=0.7426 (30.2s)
+2026-07-06 21:14:04,745 INFO ids.evaluation.cross_val: CV random_forest fold 4/5: f1_macro=0.6602 acc=0.7412 (30.2s)
+2026-07-06 21:14:39,102 INFO ids.evaluation.cross_val: CV random_forest fold 5/5: f1_macro=0.6647 acc=0.7420 (30.6s)
+2026-07-06 21:14:52,216 INFO ids.evaluation.cross_val: CV svm fold 1/5: f1_macro=0.5367 acc=0.6127 (10.7s)
+2026-07-06 21:15:04,584 INFO ids.evaluation.cross_val: CV svm fold 2/5: f1_macro=0.5341 acc=0.6272 (10.3s)
+2026-07-06 21:15:16,641 INFO ids.evaluation.cross_val: CV svm fold 3/5: f1_macro=0.5369 acc=0.6126 (10.0s)
+2026-07-06 21:15:27,295 INFO ids.evaluation.cross_val: CV svm fold 4/5: f1_macro=0.5399 acc=0.6138 (8.7s)
+2026-07-06 21:15:38,229 INFO ids.evaluation.cross_val: CV svm fold 5/5: f1_macro=0.5445 acc=0.6219 (9.1s)
+2026-07-06 21:15:43,264 INFO ids.evaluation.cross_val: CV naive_bayes fold 1/5: f1_macro=0.4507 acc=0.3796 (3.5s)
+2026-07-06 21:15:48,282 INFO ids.evaluation.cross_val: CV naive_bayes fold 2/5: f1_macro=0.4611 acc=0.7568 (3.5s)
+2026-07-06 21:15:53,326 INFO ids.evaluation.cross_val: CV naive_bayes fold 3/5: f1_macro=0.4197 acc=0.2337 (3.7s)
+2026-07-06 21:15:58,507 INFO ids.evaluation.cross_val: CV naive_bayes fold 4/5: f1_macro=0.4668 acc=0.5510 (3.7s)
+2026-07-06 21:16:03,981 INFO ids.evaluation.cross_val: CV naive_bayes fold 5/5: f1_macro=0.4705 acc=0.4206 (3.9s)
+2026-07-06 21:21:28,393 INFO ids.evaluation.cross_val: CV knn fold 1/5: f1_macro=0.6995 acc=0.7400 (4.2s)
+2026-07-06 21:26:56,820 INFO ids.evaluation.cross_val: CV knn fold 2/5: f1_macro=0.6672 acc=0.7406 (4.3s)
+2026-07-06 21:32:25,684 INFO ids.evaluation.cross_val: CV knn fold 3/5: f1_macro=0.7030 acc=0.7386 (3.7s)
+2026-07-06 21:37:55,100 INFO ids.evaluation.cross_val: CV knn fold 4/5: f1_macro=0.7083 acc=0.7385 (3.9s)
+2026-07-06 21:43:20,971 INFO ids.evaluation.cross_val: CV knn fold 5/5: f1_macro=0.6883 acc=0.7382 (3.8s)
+2026-07-06 21:43:20,973 INFO nb04: END   5-fold stratified CV, all models (1955.2s)
+2026-07-06 21:43:21,026 INFO nb04: notebook 04 complete — 142 artifact files under /Users/MAC/Projects/IDS/backend/artifacts/ft40_rfe/cic2018/runs

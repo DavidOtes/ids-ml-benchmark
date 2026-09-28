@@ -1,0 +1,8 @@
+{
+  "input_rows": 2830743,
+  "replaced_inf": 4376,
+  "dropped_nan": 2867,
+  "dropped_duplicates": 307078,
+  "output_rows": 2520798,
+  "pct_rows_dropped": 10.949
+}

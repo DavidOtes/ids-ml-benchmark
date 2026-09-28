@@ -1,0 +1,12 @@
+{
+  "dataset": "cic2018",
+  "rows": 1999987,
+  "n_features": 77,
+  "columns": 78,
+  "memory_mb": 1362.0,
+  "dtype_counts": {
+    "float64": 77,
+    "object": 1
+  },
+  "n_duplicate_rows": 403318
+}

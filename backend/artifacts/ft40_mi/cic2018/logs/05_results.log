@@ -1,0 +1,4 @@
+2026-07-06 20:27:39,700 INFO nb05: collected 25 (scheme, model, split) results
+2026-07-06 20:27:39,743 INFO nb05: saved 7 pivot tables to /Users/MAC/Projects/IDS/backend/artifacts/ft40_mi/cic2018/results
+2026-07-06 20:27:40,359 INFO nb05: 34/40 features shared with the RF-importance study
+2026-07-06 20:27:40,373 INFO nb05: study produced 183 artifact files under /Users/MAC/Projects/IDS/backend/artifacts/ft40_mi/cic2018

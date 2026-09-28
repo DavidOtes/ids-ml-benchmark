@@ -1,0 +1,51 @@
+2026-07-06 09:03:11,795 INFO nb01: dataset=cic2018 | random_state=42 | artifacts -> /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2018
+2026-07-06 09:03:11,805 INFO nb01: importing 10 raw CSV files from /Users/MAC/Projects/IDS/datasets/CSE-CIC-IDS2018
+2026-07-06 09:03:11,806 INFO nb01: START read 02-14-2018.csv
+2026-07-06 09:03:19,449 INFO ids.data.loaders: 02-14-2018.csv: sampled 200001 / 1048575 rows
+2026-07-06 09:03:19,531 INFO nb01: END   read 02-14-2018.csv (7.7s)
+2026-07-06 09:03:19,532 INFO nb01: 02-14-2018.csv -> 200001 rows
+2026-07-06 09:03:19,532 INFO nb01: START read 02-15-2018.csv
+2026-07-06 09:03:26,951 INFO ids.data.loaders: 02-15-2018.csv: sampled 200001 / 1048575 rows
+2026-07-06 09:03:27,026 INFO nb01: END   read 02-15-2018.csv (7.5s)
+2026-07-06 09:03:27,027 INFO nb01: 02-15-2018.csv -> 200001 rows
+2026-07-06 09:03:27,027 INFO nb01: START read 02-16-2018.csv
+2026-07-06 09:03:40,208 INFO ids.data.loaders: 02-16-2018.csv: sampled 200002 / 1048575 rows
+2026-07-06 09:03:41,162 INFO nb01: END   read 02-16-2018.csv (14.1s)
+2026-07-06 09:03:41,162 INFO nb01: 02-16-2018.csv -> 200002 rows
+2026-07-06 09:03:41,163 INFO nb01: START read 02-20-2018.csv
+2026-07-06 09:04:59,073 INFO ids.data.loaders: 02-20-2018.csv: sampled 200006 / 7948748 rows
+2026-07-06 09:04:59,444 INFO nb01: END   read 02-20-2018.csv (78.3s)
+2026-07-06 09:04:59,444 INFO nb01: 02-20-2018.csv -> 200006 rows
+2026-07-06 09:04:59,445 INFO nb01: START read 02-21-2018.csv
+2026-07-06 09:05:06,155 INFO ids.data.loaders: 02-21-2018.csv: sampled 200001 / 1048575 rows
+2026-07-06 09:05:06,234 INFO nb01: END   read 02-21-2018.csv (6.8s)
+2026-07-06 09:05:06,234 INFO nb01: 02-21-2018.csv -> 200001 rows
+2026-07-06 09:05:06,235 INFO nb01: START read 02-22-2018.csv
+2026-07-06 09:05:13,657 INFO ids.data.loaders: 02-22-2018.csv: sampled 200000 / 1048575 rows
+2026-07-06 09:05:13,723 INFO nb01: END   read 02-22-2018.csv (7.5s)
+2026-07-06 09:05:13,724 INFO nb01: 02-22-2018.csv -> 200000 rows
+2026-07-06 09:05:13,724 INFO nb01: START read 02-23-2018.csv
+2026-07-06 09:05:20,681 INFO ids.data.loaders: 02-23-2018.csv: sampled 200001 / 1048575 rows
+2026-07-06 09:05:20,746 INFO nb01: END   read 02-23-2018.csv (7.0s)
+2026-07-06 09:05:20,746 INFO nb01: 02-23-2018.csv -> 200001 rows
+2026-07-06 09:05:20,747 INFO nb01: START read 02-28-2018.csv
+2026-07-06 09:05:28,075 INFO ids.data.loaders: 02-28-2018.csv: sampled 200001 / 613104 rows
+2026-07-06 09:05:28,876 INFO nb01: END   read 02-28-2018.csv (8.1s)
+2026-07-06 09:05:28,877 INFO nb01: 02-28-2018.csv -> 200001 rows
+2026-07-06 09:05:28,877 INFO nb01: START read 03-01-2018.csv
+2026-07-06 09:05:32,766 INFO ids.data.loaders: 03-01-2018.csv: sampled 200000 / 331125 rows
+2026-07-06 09:05:33,452 INFO nb01: END   read 03-01-2018.csv (4.6s)
+2026-07-06 09:05:33,453 INFO nb01: 03-01-2018.csv -> 200000 rows
+2026-07-06 09:05:33,453 INFO nb01: START read 03-02-2018.csv
+2026-07-06 09:05:40,946 INFO ids.data.loaders: 03-02-2018.csv: sampled 200001 / 1048575 rows
+2026-07-06 09:05:41,046 INFO nb01: END   read 03-02-2018.csv (7.6s)
+2026-07-06 09:05:41,046 INFO nb01: 03-02-2018.csv -> 200001 rows
+2026-07-06 09:06:06,890 INFO ids.data.unify: concat_unified: dropped 27 non-numeric rows (likely duplicated headers)
+2026-07-06 09:06:06,892 INFO ids.data.unify: concat_unified: 1999987 rows, 78 columns
+2026-07-06 09:06:10,242 INFO nb01: saved /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2018/data/raw_unified.parquet (1999987 rows x 78 cols)
+2026-07-06 09:06:13,772 INFO nb01: overview: {'dataset': 'cic2018', 'rows': 1999987, 'n_features': 77, 'columns': 78, 'memory_mb': 1362.0, 'dtype_counts': {'float64': 77, 'object': 1}, 'n_duplicate_rows': 403318}
+2026-07-06 09:06:13,834 INFO nb01: 15 classes; imbalance ratio max/min = 95213
+2026-07-06 09:06:15,834 INFO nb01: NaN cells=6550 | inf cells=14266 | zero-variance features=['bwd_psh_flags', 'bwd_urg_flags', 'fwd_byts_b_avg', 'fwd_pkts_b_avg', 'fwd_blk_rate_avg', 'bwd_byts_b_avg', 'bwd_pkts_b_avg', 'bwd_blk_rate_avg']
+2026-07-06 09:06:19,447 INFO nb01: saved describe.csv (77 features)
+2026-07-06 09:06:21,269 INFO nb01: pairs with |r| > 0.95: 46
+2026-07-06 09:06:21,884 INFO nb01: notebook 01 complete — artifacts in /Users/MAC/Projects/IDS/backend/artifacts/ft40/cic2018/eda

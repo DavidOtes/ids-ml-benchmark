@@ -1,0 +1,30 @@
+{
+  "dataset": "cic2017",
+  "scheme": "70_20_10",
+  "model": "svm",
+  "n_train": 1764558,
+  "n_test": 252080,
+  "target_per_class": 50000,
+  "fit_seconds": 10.122,
+  "n_val": 504160,
+  "test": {
+    "name": "svm",
+    "accuracy": 0.6901975563313234,
+    "precision_macro": 0.290488945975418,
+    "recall_macro": 0.770084472889642,
+    "f1_macro": 0.3212248831161227,
+    "roc_auc": 0.9495365096735447,
+    "detection_time_ms": 0.0010347874951548875,
+    "n_test": 252080
+  },
+  "validation": {
+    "name": "svm",
+    "accuracy": 0.6896877975245954,
+    "precision_macro": 0.2896594277506183,
+    "recall_macro": 0.8052425573789498,
+    "f1_macro": 0.3210447038205712,
+    "roc_auc": 0.9485198915526948,
+    "detection_time_ms": 0.0015070834080688656,
+    "n_test": 504160
+  }
+}

@@ -1,0 +1,8 @@
+,accuracy,accuracy,f1_macro,f1_macro,precision_macro,precision_macro,recall_macro,recall_macro,roc_auc,roc_auc
+split,test,validation,test,validation,test,validation,test,validation,test,validation
+model,,,,,,,,,,
+decision_tree,0.9963,0.9962,0.8132,0.7895,0.7645,0.7304,0.917,0.9098,0.9981,0.9981
+knn,0.989,0.9888,0.7288,0.7218,0.6775,0.6736,0.9186,0.8963,0.9979,0.9978
+naive_bayes,0.7209,0.7207,0.3729,0.437,0.3387,0.4036,0.7225,0.7553,0.966,0.9658
+random_forest,0.9957,0.9954,0.8544,0.8507,0.835,0.855,0.9129,0.8999,0.9998,0.9998
+svm,0.776,0.7754,0.3669,0.3664,0.3048,0.3041,0.8703,0.8474,0.9739,0.9735

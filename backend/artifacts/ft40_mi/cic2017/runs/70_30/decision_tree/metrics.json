@@ -1,0 +1,19 @@
+{
+  "dataset": "cic2017",
+  "scheme": "70_30",
+  "model": "decision_tree",
+  "n_train": 1764558,
+  "n_test": 756240,
+  "target_per_class": 50000,
+  "fit_seconds": 18.394,
+  "test": {
+    "name": "decision_tree",
+    "accuracy": 0.9948402623505765,
+    "precision_macro": 0.7100534216393988,
+    "recall_macro": 0.9052977442886087,
+    "f1_macro": 0.7695170454218017,
+    "roc_auc": 0.9976081592051558,
+    "detection_time_ms": 0.0003902000025846064,
+    "n_test": 756240
+  }
+}

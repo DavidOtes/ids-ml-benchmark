@@ -1,0 +1,21 @@
+2026-07-06 01:41:52,953 INFO nb03: START load clean.parquet
+2026-07-06 01:41:54,225 INFO nb03: END   load clean.parquet (1.3s)
+2026-07-06 01:41:55,077 INFO nb03: 2520798 rows, 77 features, 15 classes
+2026-07-06 01:41:56,812 INFO nb03: 70/30 split: 1764558 train / 756240 test (stratified, seed=42)
+2026-07-06 01:41:56,817 INFO nb03: START RandomForest importance on 1764558 training rows
+2026-07-06 01:44:18,592 INFO nb03: END   RandomForest importance on 1764558 training rows (141.8s)
+2026-07-06 01:44:18,616 INFO nb03: top 40 features cover 91.3% of total importance
+2026-07-06 07:48:42,272 INFO nb03: START load clean.parquet
+2026-07-06 07:48:42,601 INFO nb03: END   load clean.parquet (0.3s)
+2026-07-06 07:48:42,931 INFO nb03: 2520798 rows, 77 features, 15 classes
+2026-07-06 07:48:44,663 INFO nb03: 70/30 split: 1764558 train / 756240 test (stratified, seed=42)
+2026-07-06 07:48:44,672 INFO nb03: START RandomForest importance on 1764558 training rows
+2026-07-06 07:51:18,960 INFO nb03: END   RandomForest importance on 1764558 training rows (154.3s)
+2026-07-06 07:51:18,987 INFO nb03: top 40 features cover 91.3% of total importance
+2026-07-06 10:32:19,625 INFO nb03: START load clean.parquet
+2026-07-06 10:32:21,008 INFO nb03: END   load clean.parquet (1.4s)
+2026-07-06 10:32:21,948 INFO nb03: 2520798 rows, 77 features, 15 classes
+2026-07-06 10:32:23,895 INFO nb03: 70/30 split: 1764558 train / 756240 test (stratified, seed=42)
+2026-07-06 10:32:23,900 INFO nb03: START RandomForest importance on 1764558 training rows
+2026-07-06 10:34:46,088 INFO nb03: END   RandomForest importance on 1764558 training rows (142.2s)
+2026-07-06 10:34:46,112 INFO nb03: top 40 features cover 91.3% of total importance

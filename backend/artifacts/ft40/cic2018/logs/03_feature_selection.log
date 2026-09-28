@@ -1,0 +1,7 @@
+2026-07-06 09:12:21,774 INFO nb03: START load clean.parquet
+2026-07-06 09:12:22,824 INFO nb03: END   load clean.parquet (1.1s)
+2026-07-06 09:12:23,341 INFO nb03: 1586902 rows, 77 features, 15 classes
+2026-07-06 09:12:24,386 INFO nb03: 70/30 split: 1110831 train / 476071 test (stratified, seed=42)
+2026-07-06 09:12:24,391 INFO nb03: START RandomForest importance on 1110831 training rows
+2026-07-06 09:14:04,595 INFO nb03: END   RandomForest importance on 1110831 training rows (100.2s)
+2026-07-06 09:14:04,623 INFO nb03: top 40 features cover 89.3% of total importance

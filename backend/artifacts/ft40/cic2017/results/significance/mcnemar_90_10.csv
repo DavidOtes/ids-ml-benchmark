@@ -1,0 +1,11 @@
+dataset,scheme,model_a,model_b,only_a_correct,only_b_correct,statistic,p_value,significant_0.05,better
+cic2017,90_10,decision_tree,random_forest,451,631,29.6128,5.275666018845056e-08,True,random_forest
+cic2017,90_10,decision_tree,svm,74896,180,74355.7359,0.0,True,decision_tree
+cic2017,90_10,decision_tree,naive_bayes,168280,213,167640.0821,0.0,True,decision_tree
+cic2017,90_10,decision_tree,knn,6815,663,5059.4813,0.0,True,decision_tree
+cic2017,90_10,random_forest,svm,74930,34,74826.0635,0.0,True,random_forest
+cic2017,90_10,random_forest,naive_bayes,168275,28,168189.0193,0.0,True,random_forest
+cic2017,90_10,random_forest,knn,6692,360,5683.7154,0.0,True,random_forest
+cic2017,90_10,svm,naive_bayes,111965,18614,66735.2522,0.0,True,svm
+cic2017,90_10,svm,knn,514,69078,67549.215,0.0,True,knn
+cic2017,90_10,naive_bayes,knn,485,162400,160948.7884,0.0,True,knn
